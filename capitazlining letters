@@ -1,0 +1,11 @@
+//Challenge
+ var name=prompt("Enter your name");
+var firstchar=name.slice(0,1);
+ var big=firstchar.toUpperCase();
+var rest=name.slice(1,name.length);
+rest=rest.toLowerCase();
+var capitalName=big + rest ;
+// to rest of lower toUpperCase
+
+
+alert(" Hello " + capitalName );
